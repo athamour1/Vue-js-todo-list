@@ -1,4 +1,4 @@
-# vue-js-test2
+# vue-js-Todo-List
 
 ## Project setup
 ```
