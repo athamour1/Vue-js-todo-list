@@ -24,6 +24,7 @@ export default {
       }
       // Send up to parent
       this.$emit('add-todo', newTodo);
+
       this.title = '';
     }
   }
@@ -34,11 +35,15 @@ export default {
   form {
     display: flex;
   }
+
   input[type="text"] {
     flex: 10;
     padding: 5px;
   }
+
   input[type="submit"] {
     flex: 2;
   }
 </style>
+
+
